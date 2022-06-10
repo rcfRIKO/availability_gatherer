@@ -1,2 +1,2 @@
-# availability_gatherer
-Gathers the availability of multiple users
+# Availability Gatherer
+Gathers the availability of a group of people
