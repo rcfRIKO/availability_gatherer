@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Create your availability gatherer{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <form action="/gatherer" method="post">
+        <input type="submit" name="create" value="Click Here!">
+    </form>
+{% endblock %}
