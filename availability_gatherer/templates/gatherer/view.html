@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Enter your availability{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <p>
+        {{ gatherer['start_date'] }}</br>
+        {{ gatherer['end_date'] }}
+    </p>
+{% endblock %}
